@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questão</title>
+</head>
+<body>
+    <form onsubmit="return false;">
+    <h2> Vou tirar 10 esse Bimestre?</h2>
+    
+    <input type="radio" name="resposta" value="Não" id="nao"> Lamento, mas não<br>
+    <input type="radio" name="resposta" value="Sim" id="sim"> Claro, você é uma ótima aluna!<br>
+    <input type="radio" name="resposta" value="Talvez" id="talvez"> Talvez um 9<br>
+    <input type="radio" name="resposta" value="Pensar" id="pensar"> Vou pensar no seu caso<br>
+	<button onclick="verificar()">Verificar</button>
+    <p id="resposta"></p>
+
+</form>
+<script src="12.js"></script>
+</html>
